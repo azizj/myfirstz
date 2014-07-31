@@ -1,0 +1,22 @@
+<!doctype html> 
+<html>
+<head>
+<title>My First App</title> 
+
+</head>
+<body>
+<button id = "btn1">Press me</button>
+<button id = "Clear">Clear</button>
+<div id = "Results"></div>
+<script src ="JS/zepto.js"></script>
+<script src ="JS/zzbtn.js"></script>
+<script>
+$('#btn1').click(function() {
+      btn1.doit($('#Results'));
+	  });
+$('#Clear').click(function() {
+      $('#Results').html('');
+	  });	  
+</script>
+</body>
+</html>
